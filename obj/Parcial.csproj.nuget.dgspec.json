@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\Semestre 6\\Programacion 1\\Pacrial\\Parcial\\Parcial.csproj": {}
+    "D:\\Universidad\\Semestre 6\\Programacion 1\\Parcial\\Parcial\\Parcial.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\Semestre 6\\Programacion 1\\Pacrial\\Parcial\\Parcial.csproj": {
+    "D:\\Universidad\\Semestre 6\\Programacion 1\\Parcial\\Parcial\\Parcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Semestre 6\\Programacion 1\\Pacrial\\Parcial\\Parcial.csproj",
+        "projectUniqueName": "D:\\Universidad\\Semestre 6\\Programacion 1\\Parcial\\Parcial\\Parcial.csproj",
         "projectName": "Parcial",
-        "projectPath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Pacrial\\Parcial\\Parcial.csproj",
+        "projectPath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Parcial\\Parcial\\Parcial.csproj",
         "packagesPath": "C:\\Users\\vilca\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Pacrial\\Parcial\\obj\\",
+        "outputPath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Parcial\\Parcial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vilca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.4, )"
             },

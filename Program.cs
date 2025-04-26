@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using PARCIAL.Data; 
+using Parcial.Data; 
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -30,6 +30,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
+
 
 
 app.Run();
